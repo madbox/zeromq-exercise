@@ -1,10 +1,11 @@
 # zeromq-exercise
 
-This repo contains simple apps to tru out zeromq. Currently it has 2 apps:
+This repo contains simple apps to try out zeromq. Currently it has 2 apps:
 * listener.rb
 * speaker.rb
 
-Listener is a simple server that listen to zeromq PUSH/PULL inter-process queue. It Endlessly pulls any messages and just prints them to stdout.
+Lis
+tener is a simple server that listen to zeromq PUSH/PULL inter-process queue. It Endlessly pulls any messages and just prints them to stdout.
 
 Speaker is a message generator script. You can run it once or multiple times in parallel. Any instance will generate one message and push it to queue.
 
