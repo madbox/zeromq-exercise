@@ -1,14 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    daemons (1.2.4)
     rbczmq (1.7.9)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  daemons (= 1.2.4)
   rbczmq (= 1.7.9)
 
 BUNDLED WITH
