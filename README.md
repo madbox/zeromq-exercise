@@ -14,28 +14,26 @@ Assuming that you running Linux box.
 
 1. setup
 
-Checkout repo and "cd" into repo dir.
-
-```bash
-rvm install ruby-2.3.0
-bundle install
-```
-
+   Checkout repo and "cd" into repo dir.
+   ```bash
+   rvm install ruby-2.3.0
+   bundle install
+   ```
+   
 2. run listener
 
-Open terminal and run "Listener"
+   Open terminal and run "Listener"
 
-```bash
-bundle exec ruby listener.rb
-```
+   ```bash
+   bundle exec ruby listener.rb
+   ```
 
 3. run speaker app
 
-Open another terminal
+   Open another terminal and run speaker in one of the ways
 
-```bash
-bundle exec ruby speaker.rb
-
-bundle exec ruby speaker.rb & bundle exec ruby speaker.rb & bundle exec ruby speaker.rb
-```
-The last line runs 3 instances of 'speaker' in parallel
+   ```bash
+   bundle exec ruby speaker.rb
+   bundle exec ruby speaker.rb & bundle exec ruby speaker.rb & bundle exec ruby speaker.rb
+   ```
+   The last line runs 3 instances of 'speaker' in parallel
