@@ -8,6 +8,8 @@ Listener is a simple server that listen to zeromq PUSH/PULL inter-process queue.
 
 Speaker is a message generator script. You can run it once or multiple times in parallel. Any instance will generate one message and push it to queue.
 
+Listener app can be used with nodejs REST API app from [nodejs-test](https://github.com/madbox/nodejs-test "Github repo madbox/nodejs-test") repo.
+
 #How to play with it
 
 Assuming that you running Linux box.
